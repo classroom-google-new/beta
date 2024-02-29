@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+<ModulePrefs title="google.com" />
+<Content type="html"><![CDATA[
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui, shrink-to-fit=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <title>Unblocked games Premium!</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/classroom-google-new/beta@main/assets/css/stylesheet.css" type="text/css" charset="utf-8" />
+
+
+
+
+
+</head>
+
+<body>
+    <h1 style="visibility:hidden;position:absolute;display:block;">Money Movers</h1>
+    <div id="content"></div>
+    <div id="loader">Loading ... Unblocked games Premium!</div>
+    <div id="orientation"></div>
+    <script type="text/javascript">
+        var gameName = "https://cdn.jsdelivr.net/gh/classroom-google-new/beta@main/money-movers-1.min.js";
+
+
+
+        var fbrqLA = false,
+            fbrqBD = 0,
+            playBtn = true,
+            fbrqSA = true,
+            libs = [],
+            version = 'Talpa-30';
+
+
+        //This all here is for cache busting;
+        function addScript(src, buster, callback) {
+            var s = document.createElement('script');
+            s.setAttribute('src', src + '?v=' + buster);
+            if (typeof callback === 'function') {
+                s.onload = callback;
+            }
+            document.body.appendChild(s);
+        }
+
+
+        addScript(gameName, version, function() {
+            var game = new MoneyMovers.Game();
+        });
+    </script>
+</body>
+
+</html>
+
+]]></Content>
+</Module>
